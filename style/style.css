@@ -1,0 +1,99 @@
+*{
+margin: 0;
+padding: 0;    
+}
+
+.header{
+    text-align: center;
+    padding: 2rem;
+    font-size: xx-large;
+}
+
+/*------------------------ main start section------------------------- */
+.main-section{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-image{
+    width: 50%;
+    padding:3%;
+}
+.main-image h2{
+    text-align: center;
+    color: hotpink;
+}
+.main-image img{
+    width: 100%;
+}
+/*------------------------ main end section------------------------- */
+
+
+/* --------------------customize start section------------------ */
+.customize-section{
+    width: 50%;
+    padding:3%;
+    
+}
+.product-details h1{
+    font-size: xx-large;
+    margin-bottom:3%;
+}
+
+.option-section {
+    padding: 1rem 0;
+}
+.option-section button{
+ padding: 1%;
+
+}
+.option-section button:hover{
+    background-color:hotpink;
+}
+
+.price-row{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding:0.75rem;
+}
+hr{
+    width: 50%;
+    background-color: rgb(168, 156, 156);
+}
+/* --------------------customize end section------------------ */
+
+
+/* ---------------Promo code start sectiion -----------------*/
+.promo-code{
+    padding: 1rem 0; 
+}
+.promo-code button{
+    padding: 1.5%;
+    width:20%;
+    background-color: rgba(153, 10, 17, 0.671);
+    border-radius:10px;
+    color: white;
+    
+    
+}
+.input-promo{
+    padding: 1.5%;
+    font-weight: 600;
+}
+.input-promo:hover{
+    background-color: gainsboro;
+}
+/* ---------------Promo code end sectiion -----------------*/
+.last-hr{
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.total{
+    text-align: center;
+}
+
+/* ----------------------end css----------------------------- */
